@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+        <h1 style="color: rgb(24, 96, 179);"> Mini cine</h1>
+        
+      
+      <button id="vCine_btAgregar"><strong>Agregar cinefilo</button>
+      <button id="vCine_btEliminar"><strong>Eliminar cinefilo</button>
+      <p></p>
+    </div>
+    <table>
+      <thead>
+        
+        <tr>
+          <th>Codigo</th>
+          <th>Sala</th>
+          <th>Nombre de la pelicula</th>       
+          <th>Cantidad de Adultos</th>
+          <th>Cantidad de Niños</th>
+          <th>EntradasTotal</th>
+          <th>Monto a Pagar</th>
+        </tr>
+      </thead>
+      <tbody id="vCine_rptrCine">
+        <tr>
+          <td class="vCine_codigo">--</td>
+          <td class="vCine_sala">--</td>
+          <td class="vCine_nombre">--</td>     
+          <td class="vCine_cantdAdulto">--</td>
+          <td class="vCine_cantdNiño">--</td>
+          <td class="vCine_EntradasTotal">--</td>
+          <td class="vCine_costoEntrada">--</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong> Película mas vendida:
+      <span id="vCine_lblPeliculaMasVendida"></span></p>
+    </p>
+    <p>
+      Cantidad de entradas Vendidas:
+      <span id="vCine_lblCantEntradasVendidas"></span>
+    </p>
+    <p>
+      El monto total cobrado es: 
+      <span id="vCine_lblMontoTotal"></span>$</p>
+    </p>
+    <p>
+     Capacidad maxima de personas en la sala 1 : 
+      <span id="vCine_lblCantEntradas"></span></p>
+    </p>
+    <p>
+      Capacidad maxima de personas en la sala 2 : 
+       <span id="vCine_lblCant2"></span></p>
+     </p>
+     <p>
+      Capacidad maxima de personas en la sala 3 : 
+       <span id="vCine_lblCant3"></span></p>
+     </p>
+    
+   
+
+    <script src="index.js"></script>
+  </body>
+</html>
